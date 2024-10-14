@@ -2,7 +2,7 @@ Here's the updated explanation file, now including instructions for installing P
 
 ---
 
-# How to Contribute to the Little Hero Project on GitHub
+# How to Contribute to the Little Heroes Unite Project on GitHub
 
 ## Introduction
 This guide will teach you how to contribute to the Little Hero project. It covers everything from bringing the code to your local computer (your own machine) to sending your changes back to the main project. You’ll be making something called a "pull request" to suggest your changes for review.
