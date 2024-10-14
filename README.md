@@ -1,6 +1,4 @@
-Here's the updated explanation file, now including instructions for installing Python, pip, and Flask, along with how to update them:
 
----
 
 # How to Contribute to the Little Heroes Unite Project on GitHub
 
@@ -158,4 +156,3 @@ Happy coding! 😊💻
 
 ---
 
-Let me know if you need any further modifications or additional information!
