@@ -1,4 +1,6 @@
+Here’s the modified explanation file that reflects your requirements for the project. This version does not involve forking the repository and allows all team members to push their changes directly, which will automatically create pull requests.
 
+---
 
 # How to Contribute to the Little Hero Project on GitHub
 
@@ -14,27 +16,21 @@ This guide will teach you how to contribute to the Little Hero project. It cover
 
 ## Step-by-Step Guide
 
-### Step 1: Fork the Repository
-First, you need to create your own copy of the Little Hero project.
-
-1. **Go to the repository**: [Little Hero GitHub](https://github.com/onlinemax/little-hero).
-2. **Click the "Fork" button** in the upper-right corner. This will create a copy of the project under your own GitHub account.
-
-### Step 2: Clone the Repository (Initial Setup)
-You’ll clone the project to your local computer only once.
+### Step 1: Clone the Repository (Initial Setup)
+You’ll clone the project to your local computer.
 
 1. **Open Visual Studio Code (VSCode)**.
 2. **Open the Terminal in VSCode**:
    - Click on **View > Terminal** from the top menu, or press `Ctrl + ` (backtick) on your keyboard.
-3. **Copy the link to your fork**:
-   - On your GitHub fork page (which should be `https://github.com/YourUsername/little-hero`), click the green **"Code"** button and copy the link under **HTTPS**.
-4. **Clone the repository to your local machine** by typing this command in the terminal (replacing `YourUsername` with your GitHub username):
+3. **Copy the link to the repository**:
+   - On the GitHub repository page (which should be `https://github.com/onlinemax/little-hero`), click the green **"Code"** button and copy the link under **HTTPS**.
+4. **Clone the repository to your local machine** by typing this command in the terminal:
    ```bash
-   git clone https://github.com/YourUsername/little-hero.git
+   git clone https://github.com/onlinemax/little-hero.git
    ```
 5. Press **Enter**. This will download the project files to your computer.
 
-### Step 3: Pull the Latest Changes (Subsequent Updates)
+### Step 2: Pull the Latest Changes (Subsequent Updates)
 After the initial setup, you can easily update your local copy with changes from the remote repository using `git pull`.
 
 1. **Navigate to Your Local Repository**:
@@ -53,7 +49,7 @@ After the initial setup, you can easily update your local copy with changes from
 3. **Handling Conflicts**:
    - If there are any conflicts, Git will notify you. You'll need to resolve them manually, add the resolved files, and commit again.
 
-### Step 4: Make Changes to the Code
+### Step 3: Make Changes to the Code
 Now that the project is on your computer, you can edit the code.
 
 1. **Open the project in VSCode**:
@@ -62,7 +58,7 @@ Now that the project is on your computer, you can edit the code.
 2. **Edit the code**:
    - Browse through the files and make your changes. If you're unsure where to start, follow the instructions in the project's README or ask the project maintainers for guidance.
 
-### Step 5: Commit Your Changes
+### Step 4: Commit Your Changes
 After making changes, you need to "commit" them (which means saving the changes with a message explaining what you did).
 
 1. **Open the Terminal in VSCode** if it's not already open.
@@ -81,21 +77,22 @@ After making changes, you need to "commit" them (which means saving the changes 
    git commit -m "Fixed the hero's attack function"
    ```
 
-### Step 6: Push Your Changes to GitHub
-Now, you'll send your changes to your GitHub fork (the online copy you made earlier).
+### Step 5: Push Your Changes to GitHub
+Now, you'll send your changes to the main repository. All pushes will automatically become pull requests.
 
 1. **Push your changes** by typing:
    ```bash
    git push origin main
    ```
 
-### Step 7: Create a Pull Request
-A pull request (PR) is how you ask the project maintainers to look at your changes and potentially include them in the main project.
+### Step 6: Create a Pull Request
+When you push your changes, GitHub will automatically create a pull request for you to review.
 
-1. **Go to your fork on GitHub** (e.g., `https://github.com/YourUsername/little-hero`).
-2. **Click the "Pull Request" button** near the top of the page.
-3. **Compare changes**: GitHub will automatically show the differences between your code and the main project.
-4. **Create the pull request**:
+1. **Go to the repository on GitHub** (e.g., [Little Hero GitHub](https://github.com/onlinemax/little-hero)).
+2. **Click the "Pull Requests" tab** at the top of the page.
+3. You’ll see your recently pushed branch listed there. Click on it to open the pull request.
+4. **Review the changes**: GitHub will show the differences between your code and the main project.
+5. **Create the pull request**:
    - Add a **title** and **description** of the changes you made.
    - Click **"Create Pull Request"**.
 
@@ -108,7 +105,7 @@ Here’s a quick reference for the commands you’ll use most often:
 
 - **Clone a repository** (initial setup):
   ```bash
-  git clone https://github.com/YourUsername/little-hero.git
+  git clone https://github.com/onlinemax/little-hero.git
   ```
 
 - **Navigate to your repository**:
@@ -143,3 +140,6 @@ Don’t hesitate to ask questions if you get stuck. GitHub has an active communi
 
 Happy coding! 😊💻
 
+---
+
+Feel free to ask if you need any further adjustments or additional information!
